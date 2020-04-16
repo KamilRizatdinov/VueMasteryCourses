@@ -12,3 +12,7 @@ You can use two router-provided tools for this:
 
 - Redirect
 - Alias (Can be bad for SEO becouse two different link has the same content inside)
+
+## Tip#3 (dynamic routing with parameters as props):
+
+You can use dynamic routing and pass the parameters you specified in router-link component into the page component props by using props:true flag inside the router/index.js appropriate route.
