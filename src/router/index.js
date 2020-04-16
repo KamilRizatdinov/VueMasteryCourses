@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import EventCreate from "../views/EventCreate.vue";
 import EventShow from "../views/EventShow.vue";
 import EventList from "../views/EventList.vue";
+import PageNotFoundComponent from "../views/PageNotFoundComponent.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,10 @@ const routes = [
     path: "/event/create",
     name: "event-create",
     component: EventCreate
+  },
+  {
+    path: "*",
+    component: PageNotFoundComponent
   }
 ];
 
