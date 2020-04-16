@@ -19,7 +19,7 @@ You can use dynamic routing and pass the parameters you specified in router-link
 
 ## Tip#4 (How to get rid of hashtag inside the url):
 
-You can get rid of hashtag by using made: "history" property inside the new Router(). This property somehow toggles the Browser's history.pushstate API to change URL without reloading the page. [I guess that I need to read about, sound intriguing]
+You can get rid of hashtag by using mode: "history" property inside the new Router(). This property somehow toggles the Browser's history.pushstate API to change URL without reloading the page. [I guess that I need to read about, sound intriguing]
 
 ## Tip#5 (How to implement 404 error in SPA's):
 
