@@ -1,24 +1,7 @@
 # real-world-vue
 
-## Project setup
-```
-npm install
-```
+This is just a small project for a learning purpose. I will add the information what I've learned along this course.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Tip#1:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Use :to directive iside the router-link alog with the { name: 'Viewname' } to make sure refactoring only the router/index.js file when changing the urls.
