@@ -16,3 +16,7 @@ You can use two router-provided tools for this:
 ## Tip#3 (dynamic routing with parameters as props):
 
 You can use dynamic routing and pass the parameters you specified in router-link component into the page component props by using props:true flag inside the router/index.js appropriate route.
+
+## Tip#4 (How to get rid of hashtag inside the url):
+
+You can get rid of hashtag by using made: "history" property inside the new Router(). This property somehow toggles the Browser's history.pushstate API to change URL without reloading the page. [I guess that I need to read about, sound intriguing]
