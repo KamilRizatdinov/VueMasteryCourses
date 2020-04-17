@@ -53,3 +53,7 @@ You can use json-server for mocking the API responces. You can see the API templ
 ## Tip#12 (Do not create several instances of axios):
 
 Do not create several instances of axios, use services instead, you can find one in services/EventService.js
+
+## Tip#13 (About API call undefined error):
+
+Sometimes using an API call you may catch an error, saying that some attribute is undefined. This happens because the created() hook is finished before we get any information from the server using the request (our request is asynchronous). You can prevent this error from occurance by using ternary operator inside the component's template body.
