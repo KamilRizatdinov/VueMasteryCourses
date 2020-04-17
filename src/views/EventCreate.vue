@@ -1,9 +1,19 @@
 <template>
-  <h1>Create your event here!</h1>
+  <div>
+    <h1>Create an event, {{ user.name }}</h1>
+    <p>This event is created by {{ user.name }}</p>
+  </div>
 </template>
 
 <script>
-export default {};
+import { mapState } from "vuex";
+
+export default {
+  computed: mapState({
+    user: "user",
+    categories: "categories"
+  })
+};
 </script>
 
-<style></style>
+<style scoped></style>
