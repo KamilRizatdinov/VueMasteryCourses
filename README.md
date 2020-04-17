@@ -28,3 +28,7 @@ You can register the route with path: '\*', which will catch all the pages what 
 ## Tip#6 (How to make global components, without explicit use like a child component):
 
 To make component registered globally - all you need is to register this component inside the main.js file using `Vue.component("BaseIcon", BaseIcon);`
+
+## Tip#7 (Authomatic global registration):
+
+You can also load global components from the components directory authomatically. All you need is to refactor the main.js file in the way described here: https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components
