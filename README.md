@@ -45,3 +45,7 @@ For this purpose you can use `<template></template>` tag combination. Whis is do
 ## Tip#10 (Several slots in one component):
 
 In case you want to use several slots inside the same component you need to name them. And in parent component implicitly say what content goes to which of the slots in the child.
+
+## Tip#11 (Api Mock):
+
+You can use json-server for mocking the API responces. You can see the API template in the db.json.
