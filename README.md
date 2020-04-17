@@ -2,3 +2,7 @@
 
 This is just a small project for a learning purpose. I will add the information what I've learned along this course.
 Course taken: https://www.vuemastery.com/courses/mastering-vuex/intro-to-vuex
+
+## Tip#1 (Use mutations for changing state):
+
+It is a good practice to change the state inside the mutations, not actions. Since you will be able to rollback to the previous state using mutations. Actions are used to call mutations, not to change state by themselves.
