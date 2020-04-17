@@ -37,3 +37,11 @@ You can also load global components from the components directory authomatically
 
 Slot is a pretty poverfull tag, which you can use for passing some HTML template inside the child.
 You can use this instead of making ton of similar components or passing a props.
+
+## Tip#9 (How to insert multiple elements into the same slot):
+
+For this purpose you can use `<template></template>` tag combination.
+
+## Tip#10 (Several slots in one component):
+
+In case you want to use several slots inside the same component you need to name them. And in parent component implicitly say what content goes to which of the slots in the child.
