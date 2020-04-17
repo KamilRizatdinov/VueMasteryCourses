@@ -32,3 +32,8 @@ To make component registered globally - all you need is to register this compone
 ## Tip#7 (Authomatic global registration):
 
 You can also load global components from the components directory authomatically. All you need is to refactor the main.js file in the way described here: https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components
+
+## Tip#8 (Slots):
+
+Slot is a pretty poverfull tag, which you can use for passing some HTML template inside the child.
+You can use this instead of making ton of similar components or passing a props.
