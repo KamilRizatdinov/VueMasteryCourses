@@ -1,5 +1,7 @@
 # real-world-vue
 
+![](https://i.imgur.com/2GOn9Mr.png)
+
 This is just a small project for a learning purpose. I will add the information what I've learned along this course.
 Course taken: https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro
 
