@@ -49,3 +49,7 @@ In case you want to use several slots inside the same component you need to name
 ## Tip#11 (Api Mock):
 
 You can use json-server for mocking the API responces. You can see the API template in the db.json.
+
+## Tip#12 (Do not create several instances of axios):
+
+Do not create several instances of axios, use services instead, you can find one in services/EventService.js
