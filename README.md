@@ -40,7 +40,7 @@ You can use this instead of making ton of similar components or passing a props.
 
 ## Tip#9 (How to insert multiple elements into the same slot):
 
-For this purpose you can use `<template></template>` tag combination.
+For this purpose you can use `<template></template>` tag combination. Whis is done because template tag is not preserved after passing into the child component and will not create an extra level of abstraction.
 
 ## Tip#10 (Several slots in one component):
 
