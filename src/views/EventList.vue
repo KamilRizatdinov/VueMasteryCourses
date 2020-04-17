@@ -2,17 +2,18 @@
   <div>
     <h1>Listing events</h1>
     <ul>
-      <li v-for="i in 10" :key="i">
-        <router-link :to="{ name: 'event-show', params: { id: i } }"
-          >Show event</router-link
-        >
-      </li>
+      <EventCard v-for="i in 10" :key="i" :card_id="i" />
     </ul>
   </div>
 </template>
 
 <script>
-export default {};
+import EventCard from "@/components/EventCard.vue";
+export default {
+  components: {
+    EventCard
+  }
+};
 </script>
 
 <style></style>
