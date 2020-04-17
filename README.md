@@ -1,6 +1,7 @@
 # real-world-vue
 
 This is just a small project for a learning purpose. I will add the information what I've learned along this course.
+Course taken: https://www.vuemastery.com/courses/real-world-vue-js/real-world-intro
 
 ## Tip#1 (router-link component use):
 
