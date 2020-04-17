@@ -24,3 +24,7 @@ You can get rid of hashtag by using mode: "history" property inside the new Rout
 ## Tip#5 (How to implement 404 error in SPA's):
 
 You can register the route with path: '\*', which will catch all the pages what are not implemented in your logic.
+
+## Tip#6 (How to make global components, without explicit use like a child component):
+
+To make component registered globally - all you need is to register this component inside the main.js file using `Vue.component("BaseIcon", BaseIcon);`
