@@ -42,6 +42,15 @@ There are two ways of creating and importing the modules:
 
 You can pass the object and make some manipulations to it inside the mapState instead of passing an array. You can see the use of it in EventShow.vue component.
 
+## Tip#10 (Get state of one module from another):
+
+In the case you need to somehow communicate two modules you need to pass rootState as one of the context parameters as shown below:
+![](https://i.imgur.com/JCHvoC4.png)
+
+## Tip#11 (Call action of one module from another):
+
+![](https://i.imgur.com/O1NzGlT.png)
+
 ## READ ABOUT:
 
 - mapState utility
