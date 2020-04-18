@@ -10,3 +10,7 @@ It is a good practice to change the state inside the mutations, not actions. Sin
 ## Tip#2 (mapState vuex):
 
 You can use mapState interface provided by vuex library to map states into the component's computed preperties. [I will need to read about this, for example how to mix mapState with other computed properties, which are not related to the $store]
+
+## Tip#3 (Explanation of the question asked in previous tip):
+
+If you want to use local computed properties mixed with mapState - you should apply an object spread operator (`...mapState({ //something here })`) to the mapState instance inside the body of computed.
