@@ -1,27 +1,29 @@
-export const namespaced = true;
-
-let notificationId = 0;
+export const namespaced = true
 
 export const state = {
   notifications: []
-};
+}
+
+let nextId = 1
 
 export const mutations = {
   PUSH(state, notification) {
-    state.notifications.push({ ...notification, id: notificationId++ });
+    state.notifications.push({
+      ...notification,
+      id: nextId++
+    })
   },
-  DELETE(state, notification) {
+  DELETE(state, notificationToRemove) {
     state.notifications = state.notifications.filter(
-      item => item.id !== notification.id
-    );
+      notification => notification.id !== notificationToRemove.id
+    )
   }
-};
-
+}
 export const actions = {
   add({ commit }, notification) {
-    commit("PUSH", notification);
+    commit('PUSH', notification)
   },
-  delete({ commit }, notification) {
-    commit("DELETE ", notification);
+  remove({ commit }, notificationToRemove) {
+    commit('DELETE', notificationToRemove)
   }
-};
+}

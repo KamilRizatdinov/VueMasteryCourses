@@ -5,35 +5,33 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapActions } from 'vuex'
 
 export default {
-  data() {
-    return {
-      timeout: null
-    };
-  },
-  mounted() {
-    this.timeout = setTimeout(() => {
-      this.delete(this.notification);
-    }, 5000);
-  },
-  beforeDestroy() {
-    clearTimeout(this.timeout);
-  },
   props: {
     notification: {
       type: Object,
       required: true
     }
   },
-  computed: {
-    notificationTypeClass() {
-      return `-text-${this.notification.type}`;
+  data() {
+    return {
+      timeout: null
     }
   },
-  methods: mapActions("notification", ["delete"])
-};
+  mounted() {
+    this.timeout = setTimeout(() => this.remove(this.notification), 5000)
+  },
+  beforeDestroy() {
+    clearTimeout(this.timeout)
+  },
+  computed: {
+    notificationTypeClass() {
+      return `-text-${this.notification.type}`
+    }
+  },
+  methods: mapActions('notification', ['remove'])
+}
 </script>
 
 <style scoped>
