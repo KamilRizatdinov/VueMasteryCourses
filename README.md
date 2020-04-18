@@ -14,3 +14,7 @@ You can use mapState interface provided by vuex library to map states into the c
 ## Tip#3 (Explanation of the question asked in previous tip):
 
 If you want to use local computed properties mixed with mapState - you should apply an object spread operator (`...mapState({ //something here })`) to the mapState instance inside the body of computed.
+
+## Tip#4 (How to use getter inside another getter):
+
+You can use one getter inside the other by passing getters along with state to the getter function.
