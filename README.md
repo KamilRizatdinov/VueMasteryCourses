@@ -18,3 +18,7 @@ If you want to use local computed properties mixed with mapState - you should ap
 ## Tip#4 (How to use getter inside another getter):
 
 You can use one getter inside the other by passing getters along with state to the getter function.
+
+## Tip#5 (How to make getter dynamic):
+
+In the case you want getter to take an extra paramenters you need to make getter function follow the next notation: `getterFunction: state => (your parameters) => { getter logic }`
