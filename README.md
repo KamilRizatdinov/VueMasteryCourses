@@ -55,9 +55,14 @@ In the case you need to somehow communicate two modules you need to pass rootSta
 
 If you have 2 actions with the same name inside different modules, when you will end up with that calling `this.$state.dispatch("name-of-action")` will trigger both of them. One of the ways to avoid that is to add module namespacing.
 
+## Tip#13 (using the mapActions vuex interface):
+
+To use `this.fetchEvent()` instead of `this.$state.dispatch("fetchEvent")` you can import the mapActions into the component.
+
 ## READ ABOUT:
 
 - mapState utility
 - prev and next rel values inside the <router-link /> component
 - how to split store logic into modules?
 - module namespacing in the state modules
+- mapActions utility
