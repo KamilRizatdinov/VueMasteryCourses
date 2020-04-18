@@ -35,6 +35,9 @@ Vue knows that the URL itself is not changing, so it thinks that there is no rea
 
 You can split logic encapsulated inside store/index.js into multiple modules, which will help you a lot in sence of scalability.
 
+There are two ways of creating and importing the modules:
+![](https://i.imgur.com/JiA1TGi.png)
+
 ## Tip#9 (When you use modules for state you can refactor mapState to be more useful):
 
 You can pass the object and make some manipulations to it inside the mapState instead of passing an array. You can see the use of it in EventShow.vue component.
