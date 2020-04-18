@@ -22,3 +22,7 @@ You can use one getter inside the other by passing getters along with state to t
 ## Tip#5 (How to make getter dynamic):
 
 In the case you want getter to take an extra paramenters you need to make getter function follow the next notation: `getterFunction: state => (your parameters) => { getter logic }`
+
+## Tip#6 (Use methods for creating the objects inside the components data section):
+
+Use methods for creating the objects inside the components data section, you should do this to make sure that your components data is not correlated with the data, you've just sent to the store. [Actually I do not quite understand this tip and will read more about this]
