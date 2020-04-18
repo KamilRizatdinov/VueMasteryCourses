@@ -59,6 +59,10 @@ If you have 2 actions with the same name inside different modules, when you will
 
 To use `this.fetchEvent()` instead of `this.$state.dispatch("fetchEvent")` you can import the mapActions into the component.
 
+## Tip#14 (Accessing namedspaced getters of the module)
+
+![](https://i.imgur.com/3BmjBot.png)
+
 ## READ ABOUT:
 
 - mapState utility
