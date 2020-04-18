@@ -17,6 +17,7 @@ export default new Vuex.Store({
       "community"
     ],
     events: [],
+    event: {},
     eventsNumber: 0
   },
   mutations: {
@@ -25,6 +26,9 @@ export default new Vuex.Store({
     },
     SET_EVENTS(state, events) {
       state.events = events;
+    },
+    SET_EVENT(state, event) {
+      state.event = event;
     },
     SET_PAGE_NUMBER(state, number) {
       state.eventsNumber = number;
@@ -45,6 +49,21 @@ export default new Vuex.Store({
         .catch(error => {
           console.log("Error occured while FetchingEvents", error.response);
         });
+    },
+    fetchEvent({ commit, getters }, { id }) {
+      const event = getters.getEventById(id);
+
+      if (event) {
+        commit("SET_EVENT", event);
+      } else {
+        EventService.getEvent(id)
+          .then(response => {
+            commit("SET_EVENT", response.data);
+          })
+          .catch(error => {
+            console.log("I cant find such event" + error);
+          });
+      }
     }
   },
   modules: {},
