@@ -26,3 +26,12 @@ In the case you want getter to take an extra paramenters you need to make getter
 ## Tip#6 (Use methods for creating the objects inside the components data section):
 
 Use methods for creating the objects inside the components data section, you should do this to make sure that your components data is not correlated with the data, you've just sent to the store. [Actually I do not quite understand this tip and will read more about this]
+
+## Tip#7 (Why the page is not reloading when the query params in the url are changing):
+
+Vue knows that the URL itself is not changing, so it thinks that there is no reason to rerender the components on the page. You can prevent this default behaiviour by insirting `:key="$route.fullPath"` property into the <router-view /> components inside the App.vue
+
+## READ ABOUT:
+
+- mapState utility
+- prev and next rel values inside the <router-link /> component

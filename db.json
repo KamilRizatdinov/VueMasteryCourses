@@ -1,341 +1,167 @@
 {
   "events": [
     {
-      "id": 1,
-      "title": "Beach Cleanup",
-      "date": "Aug 28 2018",
-      "time": "10:00",
-      "location": "Daytona Beach",
-      "description": "Let's clean up this beach.",
-      "organizer": "Adam Jahr",
-      "category": "sustainability",
-      "attendees": [
-        {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "def456",
-          "name": "Gregg Pollack"
-        },
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Park Cleanup",
-      "date": "Nov 12 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "We're going to clean up this park.",
-      "organizer": "Adam Jahr",
-      "category": "nature",
-      "attendees": [
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Pet Adoption Day",
-      "date": "Dec 2 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "Help animals find new homes.",
-      "organizer": "Gregg Pollack",
-      "category": "animal welfare",
-      "attendees": [
-        {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "hello",
-      "description": "helo",
-      "location": "kaka",
-      "date": "2020-04-11T13:10:00.000Z",
-      "time": "14:00",
-      "attendees": [],
-      "id": 4
-    },
-    {
-      "category": "housing",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "fdsafdsfsdf",
-      "description": "sdfsdfsdf",
-      "location": "fdsfadsf",
-      "date": "2020-04-02T13:13:00.000Z",
-      "time": "8:00",
-      "attendees": [],
-      "id": 5
-    },
-    {
-      "category": "education",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "kamil",
-      "description": "kamil",
-      "location": "kamil",
-      "date": "2020-08-06T13:36:00.000Z",
-      "time": "13:00",
-      "attendees": [],
-      "id": 6
-    },
-    {
-      "category": "education",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "kamil",
-      "description": "kamil",
-      "location": "kamil",
-      "date": "2020-08-06T13:36:00.000Z",
-      "time": "13:00",
-      "attendees": [],
-      "id": 7
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "kamil",
-      "description": "kamil",
-      "location": "kamil",
-      "date": "2020-04-02T13:38:00.000Z",
-      "time": "12:00",
-      "attendees": [],
-      "id": 8
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 9
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 10
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 11
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 12
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 13
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 14
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 15
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 16
-    },
-    {
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "ahah",
-      "description": "ahah",
-      "location": "ahah",
-      "date": "2020-04-11T13:40:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 17
-    },
-    {
-      "category": "",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": [],
-      "id": 18
-    },
-    {
-      "category": "",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": [],
-      "id": 19
-    },
-    {
-      "category": "housing",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "zoo",
-      "description": "zoo",
-      "location": "zoo national park in New York",
-      "date": "2020-04-30T13:43:00.000Z",
-      "time": "15:00",
-      "attendees": [],
-      "id": 20
-    },
-    {
-      "id": 335516,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Kamil Rizatdinov"
-      },
-      "title": "kadjfds",
-      "description": "dfsdf",
-      "location": "dsfadsf",
-      "date": "2020-04-01T13:45:00.000Z",
-      "time": "11:00",
-      "attendees": []
-    },
-    {
-      "id": 938059,
+      "id": 3525146,
       "user": {
         "id": "123",
         "name": "Kamil Rizatdinov"
       },
-      "category": "housing",
+      "category": "food",
       "organizer": "Kamil Rizatdinov",
-      "title": "fdfdf",
-      "description": "dfdfdf",
-      "location": "dfdfdf",
-      "date": "2021-02-06T13:46:00.000Z",
+      "title": "I am going",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35251,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35252146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "Hello everyone",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35235146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35251746,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35265146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "This is my Vue.js pagination example",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35251456,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I am going to eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 355146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I am going to eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35215146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I am going to eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 32525146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I am going to eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
+      "time": "17:00",
+      "attendees": []
+    },
+    {
+      "id": 35225146,
+      "user": {
+        "id": "123",
+        "name": "Kamil Rizatdinov"
+      },
+      "category": "food",
+      "organizer": "Kamil Rizatdinov",
+      "title": "I am going to eat some food today",
+      "description": "Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me. Hello everyone, you can eat the food together with me.",
+      "location": "My house",
+      "date": "2020-04-18T13:48:00.000Z",
       "time": "17:00",
       "attendees": []
     }
