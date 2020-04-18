@@ -51,8 +51,13 @@ In the case you need to somehow communicate two modules you need to pass rootSta
 
 ![](https://i.imgur.com/O1NzGlT.png)
 
+## Tip#12 (Use module namespacing to avoid name collisions):
+
+If you have 2 actions with the same name inside different modules, when you will end up with that calling `this.$state.dispatch("name-of-action")` will trigger both of them. One of the ways to avoid that is to add module namespacing.
+
 ## READ ABOUT:
 
 - mapState utility
 - prev and next rel values inside the <router-link /> component
 - how to split store logic into modules?
+- module namespacing in the state modules
